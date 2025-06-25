@@ -22,7 +22,7 @@ env:
 
   # A valid PAT (Personal Access Token) with Serving & MLflow write/read perms
   - name: DATABRICKS_TOKEN
-    value: "<YOUR_DATABRICKS_PERSONAL_ACCESS_TOKEN>"
+    value: "dapi97ca468fff3cf79fd270939bea1a56d3"
 
   # (Optional) if you have multiple profiles in ~/.databrickscfg
   # - name: DATABRICKS_CONFIG_PROFILE
