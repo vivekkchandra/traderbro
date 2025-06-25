@@ -1,0 +1,18 @@
+command:
+  - streamlit
+  - run
+  - app.py
+
+env:
+  - name: STREAMLIT_BROWSER_GATHER_USAGE_STATS
+    value: "false"
+  - name: DOCS_DIR
+    value: "docs"
+  - name: CHUNK_SIZE
+    value: "500"
+  - name: CHUNK_OVERLAP
+    value: "50"
+  - name: EMBEDDING_MODEL
+    value: "all-MiniLM-L6-v2"
+  - name: TOP_K
+    value: "5"

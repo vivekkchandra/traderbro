@@ -1,0 +1,7 @@
+mlflow>=2.21.2
+streamlit==1.44.1
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+databricks-sdk>=0.18.0
+python-dotenv>=1.0.0
+watchdog

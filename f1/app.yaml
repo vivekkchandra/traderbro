@@ -1,0 +1,29 @@
+command: [
+  "streamlit",
+  "run",
+  "app.py"
+]
+
+env:
+  - name: STREAMLIT_BROWSER_GATHER_USAGE_STATS
+    value: "false"
+  - name: SERVING_ENDPOINT
+    value: "https://dbc-6c99fd24-ec9b.cloud.databricks.com/serving-endpoints/databricks-llama-4-maverick/invocations"
+
+  # ─── Add these ─────────────────────────────────────────────────────────────────
+
+  # Tell MLflow to use the Databricks deployment plugin
+  - name: MLFLOW_TRACKING_URI
+    value: "databricks"
+
+  # Point to your Databricks workspace host
+  - name: DATABRICKS_HOST
+    value: "https://dbc-6c99fd24-ec9b.cloud.databricks.com"
+
+  # A valid PAT (Personal Access Token) with Serving & MLflow write/read perms
+  - name: DATABRICKS_TOKEN
+    value: "<YOUR_DATABRICKS_PERSONAL_ACCESS_TOKEN>"
+
+  # (Optional) if you have multiple profiles in ~/.databrickscfg
+  # - name: DATABRICKS_CONFIG_PROFILE
+  #   value: "my-profile"

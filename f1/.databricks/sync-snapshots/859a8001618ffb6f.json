@@ -1,0 +1,26 @@
+{
+  "version": "v1",
+  "host": "https://dbc-6c99fd24-ec9b.cloud.databricks.com",
+  "remote_path": "/Workspace/Users/vicky324.vv@gmail.com/databricks_apps/chatbot2_2025_06_25-12_33/streamlit-chatbot-app",
+  "last_modified_times": {
+    ".DS_Store": "2025-06-25T14:06:49.763001934+01:00",
+    "app.py": "2025-06-25T14:41:32.458374+01:00",
+    "app.yaml": "2025-06-25T14:46:37.156835+01:00",
+    "model_serving_utils.py": "2025-06-25T14:03:21.695951722+01:00",
+    "requirements.txt": "2025-06-25T14:45:48.22809+01:00"
+  },
+  "local_to_remote_names": {
+    ".DS_Store": ".DS_Store",
+    "app.py": "app.py",
+    "app.yaml": "app.yaml",
+    "model_serving_utils.py": "model_serving_utils.py",
+    "requirements.txt": "requirements.txt"
+  },
+  "remote_to_local_names": {
+    ".DS_Store": ".DS_Store",
+    "app.py": "app.py",
+    "app.yaml": "app.yaml",
+    "model_serving_utils.py": "model_serving_utils.py",
+    "requirements.txt": "requirements.txt"
+  }
+}
