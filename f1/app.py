@@ -56,8 +56,8 @@ def get_user_info():
 user_info = get_user_info()
 
 # Streamlit UI setup
-st.set_page_config(page_title="📄 Doc-Enabled Chatbot")
-st.title("📄 Doc-Enabled Chatbot")
+st.set_page_config(page_title="📄 Asideus Chatbot - beta")
+st.title("📄 Asideus Chatbot - beta")
 st.markdown("Upload PDF or DOCX documents and ask questions based on their contents.")
 
 # Session state defaults
